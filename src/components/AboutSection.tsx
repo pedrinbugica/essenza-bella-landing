@@ -27,7 +27,7 @@ const AboutSection = () => {
             <div className="space-y-6 order-1 md:order-2">
               <div className="flex items-start gap-4">
                 <div className="bg-rose-100 p-3 rounded-full flex-shrink-0">
-                  <Heart className="text-rose-500" size={20} md:size={24} />
+                  <Heart className="text-rose-500 w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <div>
                   <h3 className="text-lg md:text-xl font-semibold text-slate-800 mb-2">Cuidado Personalizado</h3>
@@ -40,7 +40,7 @@ const AboutSection = () => {
 
               <div className="flex items-start gap-4">
                 <div className="bg-blue-100 p-3 rounded-full flex-shrink-0">
-                  <Award className="text-blue-500" size={20} md:size={24} />
+                  <Award className="text-blue-500 w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <div>
                   <h3 className="text-lg md:text-xl font-semibold text-slate-800 mb-2">Experiência e Qualidade</h3>
@@ -53,7 +53,7 @@ const AboutSection = () => {
 
               <div className="flex items-start gap-4">
                 <div className="bg-green-100 p-3 rounded-full flex-shrink-0">
-                  <Users className="text-green-500" size={20} md:size={24} />
+                  <Users className="text-green-500 w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <div>
                   <h3 className="text-lg md:text-xl font-semibold text-slate-800 mb-2">Ambiente Acolhedor</h3>
